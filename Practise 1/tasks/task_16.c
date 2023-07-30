@@ -1,4 +1,4 @@
-#include <stdio.h>
+п»ї#include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 #include "tasks.h"
@@ -7,14 +7,14 @@ void task_16()
 {
     system("cls");
 
-    printf("Условие задачи (50 баллов):\nСоставить программу для вычисления 1!+2!+3!+....+n!\n\n");
+    printf("РЈСЃР»РѕРІРёРµ Р·Р°РґР°С‡Рё (50 Р±Р°Р»Р»РѕРІ):\nРЎРѕСЃС‚Р°РІРёС‚СЊ РїСЂРѕРіСЂР°РјРјСѓ РґР»СЏ РІС‹С‡РёСЃР»РµРЅРёСЏ 1!+2!+3!+....+n!\n\n");
 
     int number_n, sum_of_factorials = 0;
     do {
-        printf("Введите конечное число (n): ");
+        printf("Р’РІРµРґРёС‚Рµ РєРѕРЅРµС‡РЅРѕРµ С‡РёСЃР»Рѕ (n): ");
         scanf_s("%d", &number_n);
     } while (number_n < 0);
-    printf("\nПолученный результат: %d", calculate_sum_of_factorials(number_n, sum_of_factorials));
+    printf("\nРџРѕР»СѓС‡РµРЅРЅС‹Р№ СЂРµР·СѓР»СЊС‚Р°С‚: %d", calculate_sum_of_factorials(number_n, sum_of_factorials));
 
     back_to_tasks();
 }
