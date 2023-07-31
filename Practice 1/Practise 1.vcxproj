@@ -188,6 +188,7 @@
     <ClCompile Include="tasks\task_16.c" />
     <ClCompile Include="tasks\task_28.c" />
     <ClCompile Include="tasks\tasks_manager.c" />
+    <ClCompile Include="tasks\task_27.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tasks\tasks.h" />

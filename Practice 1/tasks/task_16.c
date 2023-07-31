@@ -7,22 +7,23 @@ void task_16()
 {
     system("cls");
 
-    printf("Условие задачи (50 баллов):\nСоставить программу для вычисления 1!+2!+3!+....+n!\n\n");
+    printf("Условие задачи (100 баллов):\nСоставить программу для вычисления 1!+2!+3!+....+n!\n\n");
 
-    int number_n, sum_of_factorials = 0;
+    int limit_number;
     do {
         printf("Введите конечное число (n): ");
-        scanf_s("%d", &number_n);
-    } while (number_n < 0);
-    printf("\nПолученный результат: %d", calculate_sum_of_factorials(number_n, sum_of_factorials));
+        scanf_s("%d", &limit_number);
+    } while (limit_number < 0);
+    printf("\nПолученный результат: %d", calculate_sum_of_factorials(limit_number));
 
     back_to_tasks();
 }
 
-int calculate_sum_of_factorials(int number_n, int sum_of_factorials)
+int calculate_sum_of_factorials(int limit_number)
 {
+    int sum_of_factorials = 0;
     int factorial_of_number = 1;
-    for (int i = 1; i <= number_n; i++)
+    for (int i = 1; i <= limit_number; i++)
     {
         factorial_of_number *= i;
         sum_of_factorials += factorial_of_number;

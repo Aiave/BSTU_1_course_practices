@@ -30,6 +30,9 @@
     <ClCompile Include="tasks\tasks_manager.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="tasks\task_27.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tasks\tasks.h">

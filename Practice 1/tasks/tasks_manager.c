@@ -8,23 +8,28 @@ void select_task(int task_number)
     {
         system("cls");
 
-        printf("Введите номер задания (1 - 3):\n");
+        printf("Введите номер задания (1 - 4):\n");
         scanf_s("%d", &task_number);
-    } while (task_number < 1 || task_number > 3);
+    } while (task_number < 1 || task_number > 4);
 
     switch (task_number)
     {
         case 1:
         {
-            task_28();
+            task_27();
             break;
         }
         case 2:
         {
-            task_16();
+            task_28();
             break;
         }
         case 3:
+        {
+            task_16();
+            break;
+        }
+        case 4:
         {
             task_14();
             break;
