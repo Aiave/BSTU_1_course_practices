@@ -33,6 +33,15 @@
     <ClCompile Include="tasks\task_27.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="tasks\task_7.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\task_24.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks\task_4.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tasks\tasks.h">

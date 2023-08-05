@@ -8,28 +8,50 @@ void select_task(int task_number)
     {
         system("cls");
 
-        printf("Введите номер задания (1 - 4):\n");
+        printf("1. Задача 7 (50 баллов)\n"
+            "2. Задача 27 (50 баллов)\n"
+            "3. Задача 28 (50 баллов)\n"
+            "4. Задача 4 (50 баллов)\n"
+            "5. Задача 16 (100 баллов)\n"
+            "6. Задача 24 (100 баллов)\n"
+            "7. Задача 14 (150 баллов)\n"
+            "\nВведите номер задания (1 - 7):\n");
         scanf_s("%d", &task_number);
-    } while (task_number < 1 || task_number > 4);
+    } while (task_number < 1 || task_number > 7);
 
     switch (task_number)
     {
         case 1:
         {
-            task_27();
+            task_7();
             break;
         }
         case 2:
         {
-            task_28();
+            task_27();
             break;
         }
         case 3:
         {
-            task_16();
+            task_28();
             break;
         }
         case 4:
+        {
+            task_4();
+            break;
+        }
+        case 5:
+        {
+            task_16();
+            break;
+        }
+        case 6:
+        {
+            task_24();
+            break;
+        }
+        case 7:
         {
             task_14();
             break;
