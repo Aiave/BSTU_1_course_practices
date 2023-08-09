@@ -5,7 +5,7 @@ void task_4()
 {
 	system("cls");
 
-	printf("Условие задачи (50 баллов):\nОпределить номера подъезда и этажа по номеру квартиры девятиэтажного дома, считая, что на каждом этаже ровно 4 квартиры,\n"
+	printf("Условие задачи (100 баллов):\nОпределить номера подъезда и этажа по номеру квартиры девятиэтажного дома, считая, что на каждом этаже ровно 4 квартиры,\n"
 	"а нумерация квартир начинается с первого подъезда.\n\n");
 
 	int apartment_number;
@@ -15,5 +15,9 @@ void task_4()
 		scanf_s("%d", &apartment_number);
 	} while (apartment_number < 1);
 
-	int entrance_number, floor;
+	int entrance_number = (apartment_number - 1) / 36 + 1;
+	printf("Номер подъезда: %d\n", entrance_number);
+	
+	int floor = ((apartment_number - 1) % 36) / 4 + 1;
+	printf("Этаж: %d\n", floor);
 }
