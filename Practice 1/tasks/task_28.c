@@ -1,6 +1,5 @@
 ﻿#include <stdio.h>
 #include <stdlib.h>
-#include "tasks.h"
 
 void task_28()
 {
@@ -17,6 +16,4 @@ void task_28()
         count_of_natural_nambers++;
     }
     printf("\nВсего чисел: %d", count_of_natural_nambers);
-
-    back_to_tasks();
 }

@@ -1,6 +1,5 @@
 ﻿#include <stdio.h>
 #include <stdlib.h>
-#include "tasks.h"
 
 void task_27()
 {
@@ -20,8 +19,6 @@ void task_27()
     }
 
     printf("Хлестаков согласился управлять департаментом на %d день. Курьеров прибыло: %d.\n", number_of_days, number_of_couriers);
-
-    back_to_tasks();
 }
 
 /*

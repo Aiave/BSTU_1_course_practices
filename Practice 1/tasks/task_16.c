@@ -15,8 +15,6 @@ void task_16()
         scanf_s("%d", &limit_number);
     } while (limit_number < 0);
     printf("\nПолученный результат: %d", calculate_sum_of_factorials(limit_number));
-
-    back_to_tasks();
 }
 
 int calculate_sum_of_factorials(int limit_number)

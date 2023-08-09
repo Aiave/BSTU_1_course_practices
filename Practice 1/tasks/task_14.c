@@ -1,6 +1,5 @@
 ﻿#include <stdio.h>
 #include <stdlib.h>
-#include "tasks.h"
 
 void task_14()
 {
@@ -31,6 +30,4 @@ void task_14()
         else if (last_number >= 5 && last_number <= 9)
             printf("\nМы нашли %d грибов в лесу.", number_of_mushrooms);
     }
-
-    back_to_tasks();
 }

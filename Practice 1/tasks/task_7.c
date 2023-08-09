@@ -1,6 +1,5 @@
 ﻿#include <stdio.h>
 #include <stdlib.h>
-#include "tasks.h"
 
 void task_7()
 {
@@ -16,8 +15,6 @@ void task_7()
 
     int last_digit_of_number, discharge;
     last_digit_of_number = four_digit_number % 10;
-
-    back_to_tasks();
 }
   
 //four_digit_number - четырёхзначное число

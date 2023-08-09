@@ -10,6 +10,7 @@ void task_27();						//задание на 50 баллов
 void task_28();						//задание на 50 баллов
 void task_4();						//задание на 100 баллов
 void task_16();						//задание на 100 баллов
+int calculate_sum_of_factorials(int limit_number);
 void task_24();						//задание на 100 баллов
 void task_14();						//задание на 150 баллов
 

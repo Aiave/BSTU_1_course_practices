@@ -1,6 +1,5 @@
 ﻿#include <stdio.h>
 #include <stdlib.h>
-#include "tasks.h"
 
 void task_4()
 {
@@ -17,6 +16,4 @@ void task_4()
 	} while (apartment_number < 1);
 
 	int entrance_number, floor;
-
-	back_to_tasks();
 }

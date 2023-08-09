@@ -1,6 +1,5 @@
 ﻿#include <stdio.h>
 #include <stdlib.h>
-#include "tasks.h"
 
 void task_24()
 {
@@ -28,6 +27,4 @@ void task_24()
         printf("Долг лучше платить сразу.\n");
     else
         printf("Долг лучше выплачивать по неделям.\n");
-
-    back_to_tasks();
 }

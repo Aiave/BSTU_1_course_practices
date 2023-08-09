@@ -24,36 +24,43 @@ void select_task(int task_number)
         case 1:
         {
             task_7();
+            back_to_tasks();
             break;
         }
         case 2:
         {
             task_27();
+            back_to_tasks();
             break;
         }
         case 3:
         {
             task_28();
+            back_to_tasks();
             break;
         }
         case 4:
         {
             task_4();
+            back_to_tasks();
             break;
         }
         case 5:
         {
             task_16();
+            back_to_tasks();
             break;
         }
         case 6:
         {
             task_24();
+            back_to_tasks();
             break;
         }
         case 7:
         {
             task_14();
+            back_to_tasks();
             break;
         }
     }
@@ -65,7 +72,7 @@ void back_to_tasks()
 
     do
     {
-        printf("\n\nВернуться к выбору задания?\n 1 - да\n 0 - нет\n");
+        printf("\n\nВернуться к выбору задания?\n 1. Да.\n 0. Нет.\n");
         scanf_s("%d", &command);
         if (command == 1)
             select_task(0);
