@@ -14,7 +14,7 @@ void task_16()
         printf("Введите конечное число (n): ");
         scanf_s("%d", &limit_number);
     } while (limit_number < 0);
-    printf("\nПолученный результат: %d", calculate_sum_of_factorials(limit_number));
+    printf("\nПолученный результат: %d\n", calculate_sum_of_factorials(limit_number));
 }
 
 int calculate_sum_of_factorials(int limit_number)

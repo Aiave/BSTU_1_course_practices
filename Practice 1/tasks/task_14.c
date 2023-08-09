@@ -15,19 +15,19 @@ void task_14()
 
     if (number_of_mushrooms % 100 >= 11 && number_of_mushrooms % 100 <= 14)
     {
-        printf("\nМы нашли %d грибов в лесу.", number_of_mushrooms);
+        printf("\nМы нашли %d грибов в лесу.\n", number_of_mushrooms);
     } 
     else 
     {
         int last_number = number_of_mushrooms % 10;
 
         if (last_number == 0)
-            printf("\nМы нашли %d грибов в лесу.", number_of_mushrooms);
+            printf("\nМы нашли %d грибов в лесу.\n", number_of_mushrooms);
         else if (last_number == 1)
-            printf("\nМы нашли %d гриб в лесу.", number_of_mushrooms);
+            printf("\nМы нашли %d гриб в лесу.\n", number_of_mushrooms);
         else if (last_number >= 2 && last_number <= 4)
-            printf("\nМы нашли %d гриба в лесу.", number_of_mushrooms);
+            printf("\nМы нашли %d гриба в лесу.\n", number_of_mushrooms);
         else if (last_number >= 5 && last_number <= 9)
-            printf("\nМы нашли %d грибов в лесу.", number_of_mushrooms);
+            printf("\nМы нашли %d грибов в лесу.\n", number_of_mushrooms);
     }
 }

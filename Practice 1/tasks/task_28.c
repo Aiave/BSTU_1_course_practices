@@ -15,5 +15,5 @@ void task_28()
         printf("%d ", number_multiple_of_three);
         count_of_natural_nambers++;
     }
-    printf("\nВсего чисел: %d", count_of_natural_nambers);
+    printf("\nВсего чисел: %d\n", count_of_natural_nambers);
 }

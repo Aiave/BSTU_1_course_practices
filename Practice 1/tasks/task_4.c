@@ -11,12 +11,12 @@ void task_4()
 	int apartment_number;
 	do
 	{
-		printf("Введите номер квартиры:\n");
+		printf("Введите номер квартиры: ");
 		scanf_s("%d", &apartment_number);
 	} while (apartment_number < 1);
 
 	int entrance_number = (apartment_number - 1) / 36 + 1;
-	printf("Номер подъезда: %d\n", entrance_number);
+	printf("\nНомер подъезда: %d\n", entrance_number);
 	
 	int floor = ((apartment_number - 1) % 36) / 4 + 1;
 	printf("Этаж: %d\n", floor);

@@ -16,9 +16,9 @@ void task_7()
     } while (four_digit_number < 1000 || four_digit_number > 9999);
 
     if (has_three_same_digit(four_digit_number))
-        printf("Да");
+        printf("Да\n");
     else
-        printf("Нет");
+        printf("Нет\n");
 }
 
 bool has_three_same_digit(int number)
