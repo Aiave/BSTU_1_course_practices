@@ -1,9 +1,7 @@
 ﻿#include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include "tasks.h"
-
-bool has_three_same_digit(int number);
+#include "task_7.h"
 
 void task_7()
 {

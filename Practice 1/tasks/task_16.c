@@ -1,9 +1,7 @@
 ﻿#include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include "tasks.h"
-
-int calculate_sum_of_factorials(int limit_number);
+#include "task_16.h"
 
 void task_16()
 {
