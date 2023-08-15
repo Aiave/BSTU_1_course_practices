@@ -3,6 +3,8 @@
 #include <math.h>
 #include "tasks.h"
 
+int calculate_sum_of_factorials(int limit_number);
+
 void task_16()
 {
     system("cls");

@@ -3,6 +3,8 @@
 #include <stdbool.h>
 #include "tasks.h"
 
+bool has_three_same_digit(int number);
+
 void task_7()
 {
     system("cls");
