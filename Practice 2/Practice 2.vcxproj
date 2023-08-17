@@ -185,6 +185,7 @@
     <ClCompile Include="main.c" />
     <ClCompile Include="tasks\tasks_manager.c" />
     <ClCompile Include="tasks\task_7.c" />
+    <ClCompile Include="tasks\task_3.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tasks\tasks.h" />

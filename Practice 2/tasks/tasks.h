@@ -4,5 +4,6 @@
 void select_task(int task_number);	//выбор задания
 void back_to_tasks();				//вернуться к заданиям
 void task_7();						//задание на 50 баллов
+void task_3();						//задание на 100 баллов
 
 #endif

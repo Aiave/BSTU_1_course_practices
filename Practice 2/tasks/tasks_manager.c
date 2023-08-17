@@ -9,15 +9,22 @@ void select_task(int task_number)
         system("cls");
 
         printf("1. Задача 7\t (50 баллов)\n"
-            "\nВведите номер задания (1 - 1):\n");
+            "2. Задача 3\t (100 баллов)\n"
+            "\nВведите номер задания (1 - 2):\n");
         scanf_s("%d", &task_number);
-    } while (task_number < 1 || task_number > 1);
+    } while (task_number < 1 || task_number > 2);
 
     switch (task_number)
     {
     case 1:
     {
         task_7();
+        back_to_tasks();
+        break;
+    }
+    case 2:
+    {
+        task_3();
         back_to_tasks();
         break;
     }
