@@ -25,5 +25,8 @@ void task_7()
 			min_number = number[i];
 	}
 
-	printf("Минимальное значение в последовательности: %d", min_number);
+	if (min_number < 0)
+		printf("Ваш ряд не имеет положительных чисел!");
+	else
+		printf("Минимальное значение в последовательности: %d", min_number);
 }
