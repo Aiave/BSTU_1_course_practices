@@ -10,16 +10,15 @@ void task_7()
 	int number[100], counter = 0;
 	printf("Введите числовую последовательность:\n");
 
-	for (int i = 0; i < 100; i++)
+	for (counter = 0; counter < 100; counter++)
 	{
-		scanf_s("%d", &number[i]);
-		counter++;
-		if (number[i] < 0)
+		scanf_s("%d", &number[counter]);
+		if (number[counter] < 0)
 			break;
 	}
 
 	int min_number = number[0];
-	for (int i = 1; i < counter - 1; i++)
+	for (int i = 1; i < counter; i++)
 	{
 		if (number[i] < min_number)
 			min_number = number[i];
